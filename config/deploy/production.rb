@@ -7,6 +7,8 @@
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
+set :server, '160.16.96.192:1993'
+server fetch(:server), user: 'raviqqe', roles: %w{web}
 
 
 # role-based syntax

@@ -37,3 +37,4 @@ set :deploy_to, '/home/raviqqe/etc/capistrano'
 # set :keep_releases, 5
 
 after 'deploy:publishing', :make_conf
+# after 'deploy:publishing', :fossil
