@@ -1,6 +1,8 @@
 task :vannila do
   on roles(:all) do |server|
     as :root do
+      execute :echo, '>> /etc/rc.conf'
+
       %W(
         hostname=#{server.hostname}
         dumpdev=AUTO
