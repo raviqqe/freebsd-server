@@ -38,3 +38,4 @@ set :deploy_to, '/home/raviqqe/etc/capistrano'
 
 after 'deploy:publishing', :make_conf
 # after 'deploy:publishing', :fossil
+# after 'deploy:publishing', :vannila
