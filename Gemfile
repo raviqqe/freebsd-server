@@ -1,3 +1,4 @@
 group :development do
-  gem "capistrano", "~> 3.6"
+  gem "capistrano"
+  gem "sshkit"
 end
