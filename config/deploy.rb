@@ -35,3 +35,5 @@ set :deploy_to, '/home/raviqqe/etc/capistrano'
 
 # Default value for keep_releases is 5
 # set :keep_releases, 5
+
+after 'deploy:publishing', :make_conf
